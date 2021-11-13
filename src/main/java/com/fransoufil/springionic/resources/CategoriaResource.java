@@ -18,11 +18,13 @@ public class CategoriaResource {
 		
 		Categoria cat1 = new Categoria(1, "Informatica");
 		Categoria cat2 = new Categoria(2, "Escritorio");
+		Categoria cat3 = new Categoria(3, "Eletrodomesticos");
 		
 		List<Categoria> lista = new ArrayList<>();
 		
 		lista.add(cat1);
 		lista.add(cat2);
+		lista.add(cat3);
 		
 		return lista;
 	}
